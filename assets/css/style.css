@@ -1,0 +1,53 @@
+body{
+    background: #000;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 75%;
+    margin: 2rem auto;
+}
+.felxRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicesBox{
+    flex: 27%;
+    flex-basis: 250px;
+    padding: 2%;
+    margin: 2% 2% 2% 0;
+    box-shadow: 0 0 4px 0 #ffa709;
+    border-radius: 10px;
+    position: relative;
+}
+.servicesBox img{
+    height: 40px;
+    width: 40px;
+}
+.servicesBox p{
+    text-align: justify;
+}
+.servicesBox a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    transform: translate(-50%,50%);
+}
+.servicesBox a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    color: transparent;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
